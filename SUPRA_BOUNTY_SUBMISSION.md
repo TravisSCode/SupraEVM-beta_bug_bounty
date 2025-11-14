@@ -40,9 +40,9 @@
 ## 🔧 Methodology & Setup
 
 ### Test Environment
-- **CPU**: $(lscpu | grep "Model name" | head -1 | cut -d: -f2 | sed 's/^ *//')
-- **RAM**: $(free -h | grep Mem: | awk '{print $2}')
-- **Storage**: NVMe SSD
+- **CPU**: $(16 vCPUs)
+- **RAM**: $(64 GB)
+- **Storage**: NVMe 1280 GB SSD
 - **OS**: Ubuntu 24.04
 - **Cores Tested**: 4, 8, 16
 
