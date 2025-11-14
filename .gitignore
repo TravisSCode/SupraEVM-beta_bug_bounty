@@ -1,0 +1,16 @@
+# Large data files
+*.zip
+*.tar.gz
+*.7z
+
+# Log files
+*.log
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp

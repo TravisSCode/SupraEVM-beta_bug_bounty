@@ -1,0 +1,12 @@
+System Configuration for Bounty Verification
+============================================
+Test Date: $(date)
+CPU: $(lscpu | grep "Model name" | head -1 | cut -d: -f2 | sed 's/^ *//')
+Memory: $(free -h | grep Mem: | awk '{print $2}')
+Storage: $(df -h /mnt/supra_test | tail -1 | awk '{print $2 " used: " $3 " available: " $4}')
+OS: $(lsb_release -d 2>/dev/null | cut -f2- || cat /etc/os-release | grep PRETTY_NAME | cut -d= -f2 | tr -d '"')
+
+Test Environment:
+- SupraBTM: Docker image rohitkapoor9312/ibtm-image:latest
+- Monad: Built from source (commit 8ffc2b985c)
+- Analysis: Python 3.x with pandas
