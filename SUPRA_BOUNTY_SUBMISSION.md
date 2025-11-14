@@ -93,4 +93,5 @@ Based on these results, we believe SupraBTM qualifies for the bounty reward.
 
 ---
 **Submitted by**: 0x59acf4b59e888cd0ef1fcbf5e4fe8d93bc72bafd16340ff05c1702734a576887
-**Contact**: [Your Twitter/GitHub handle if desired]
+**Contact**: [Twitter - @Dmitry96713954
+/Github - TravisSCode]
